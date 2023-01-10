@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 
-const MuiResponsive = () => {
+const MuiResponsiveBox = () => {
   return (
     <Box
       // --- sx represent style
@@ -20,4 +20,4 @@ const MuiResponsive = () => {
   );
 };
 
-export default MuiResponsive;
+export default MuiResponsiveBox;
