@@ -11,20 +11,21 @@ export default function MuiColorTabs() {
   };
 
   return (
-      <Tabs
-        value={value}
-        onChange={handleChange}
-        textColor="secondary"
-        indicatorColor="secondary"
-        variant="scrollable"
-        scrollButtons="auto"
-        aria-label="secondary tabs example"
-      >
-        <Tab value="one" label="Item One" />
-        <Tab value="two" label="Item Two" />
-        <Tab value="three" label="Item Three" />
-        <Tab value="four" label="Item Four" />
-        <Tab value="five" label="Item Five" />
-      </Tabs>
+    <Tabs
+      value={value}
+      onChange={handleChange}
+      textColor="secondary"
+      indicatorColor="secondary"
+      variant="scrollable"
+      scrollButtons
+      allowScrollButtonsMobile
+      aria-label="secondary tabs example"
+    >
+      <Tab value="one" label="Item One" />
+      <Tab value="two" label="Item Two" />
+      <Tab value="three" label="Item Three" />
+      <Tab value="four" label="Item Four" />
+      <Tab value="five" label="Item Five" />
+    </Tabs>
   );
 }
