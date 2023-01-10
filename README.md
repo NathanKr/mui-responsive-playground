@@ -1,2 +1,2 @@
 <h2>Motivation</h2>
-Play with responsive in mui in paticular with respect to breapoints
+Play with responsive in mui in paticular with respect to pre defined breapoints
