@@ -11,7 +11,6 @@ export default function MuiColorTabs() {
   };
 
   return (
-    <Box sx={{ width: "100%" }}>
       <Tabs
         value={value}
         onChange={handleChange}
@@ -27,6 +26,5 @@ export default function MuiColorTabs() {
         <Tab value="four" label="Item Four" />
         <Tab value="five" label="Item Five" />
       </Tabs>
-    </Box>
   );
 }
